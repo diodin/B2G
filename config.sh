@@ -75,8 +75,8 @@ echo GECKO_OBJDIR=$PWD/objdir-gecko >> .tmp-config
 echo DEVICE_NAME=$1 >> .tmp-config
 
 case "$1" in
-"galaxy-s2")
-	echo DEVICE=galaxys2 >> .tmp-config &&
+"Htc G1")
+	echo DEVICE=dream_sapphire >> .tmp-config &&
 	repo_sync $1
 	;;
 
@@ -196,7 +196,7 @@ case "$1" in
 	echo "Flags are passed through to |./repo sync|."
 	echo
 	echo Valid devices to configure are:
-	echo - galaxy-s2
+	echo - Htc G1
 	echo - galaxy-nexus
 	echo - nexus-4
 	echo - nexus-4-kk
